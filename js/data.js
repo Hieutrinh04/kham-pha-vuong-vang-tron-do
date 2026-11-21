@@ -1,5 +1,5 @@
 window.STORY = {
- "title": "Chơi cùng Tròn Đỏ và Vuông Vàng",
+ "title": "Khám phá cùng Vuông Vàng Tròn Đỏ",
  "voices": {
   "dan": {
    "name": "Người dẫn",

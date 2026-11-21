@@ -1,4 +1,4 @@
-# Trò chơi Tròn Đỏ và Vuông Vàng (bản web)
+# Khám phá cùng Vuông Vàng Tròn Đỏ (trò chơi bản web)
 
 3 màn chơi cho trẻ mẫu giáo 4–5 tuổi: **Đút bánh cho quái vật** (hình tròn/vuông), **Cơn mưa bong bóng** (màu đỏ/vàng), **Xây tháp phép thuật** (hình + màu).
 

@@ -1,5 +1,5 @@
 /* =========================================================
-   TRÒ CHƠI SỐ: Chơi cùng Tròn Đỏ và Vuông Vàng (bản web độc lập)
+   TRÒ CHƠI SỐ: Khám phá cùng Vuông Vàng Tròn Đỏ (bản web độc lập)
    Màn 1 – Đút bánh cho quái vật (phân loại HÌNH)
    Màn 2 – Cơn mưa bong bóng      (phân loại MÀU)
    Màn 3 – Xây tháp phép thuật    (kết hợp HÌNH + MÀU)
@@ -213,7 +213,7 @@
      MÀN HÌNH CHỌN MÀN
      ========================================================= */
   function home() {
-    clear('nen_bia', 'Chơi cùng Tròn Đỏ và Vuông Vàng', ['tc_bia']);
+    clear('nen_bia', 'Khám phá cùng Vuông Vàng Tròn Đỏ', ['tc_bia']);
     img('bien_ten_game', 12, 3, 76, 'popin');
     img('nhan_vat_tron_do', 4, 30, 19, 'popin'); img('nhan_vat_vuong_vang', 77, 30, 19, 'popin');
     img('quai_vat_tron_mo', 6, 68, 13); img('quai_vat_vuong_mo', 81, 68, 13);
