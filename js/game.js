@@ -15,7 +15,7 @@
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
   // Muốn có nút "Đọc truyện" trên thanh trên cùng: dán đường link truyện vào đây (để trống thì ẩn nút)
-  const STORY_URL = '';
+  const STORY_URL = 'https://canva.link/wvbdf805kr3tmus';
 
   let muted = false, scene = 0, timers = [], intro = [];
 
