@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Trò chơi Tròn Đỏ và Vuông Vàng</title>
+<meta name="description" content="Trò chơi số cho trẻ mầm non 4–5 tuổi: nhận biết hình tròn, hình vuông, màu đỏ, màu vàng cùng Tròn Đỏ và Vuông Vàng.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="topbar">
+  <div class="brand"><span class="logo-c"></span><span class="logo-s"></span><b id="brandTxt">Chơi cùng Tròn Đỏ và Vuông Vàng</b></div>
+  <nav class="tools">
+    <button id="btnStars" title="Bảng sao">⭐<span id="starTxt">0/3</span></button>
+    <button id="btnHome" title="Chọn màn chơi">🏠<span>Chọn màn</span></button>
+    <a id="btnStory" class="tbtn hidden" title="Đọc truyện" target="_blank" rel="noopener">📖<span>Đọc truyện</span></a>
+    <button id="btnReplay" title="Nghe lại lời dẫn">🔁<span>Nghe lại</span></button>
+    <button id="btnSound" title="Bật/tắt âm thanh">🔊<span>Âm thanh</span></button>
+    <button id="btnFull" title="Toàn màn hình">⛶<span>Toàn màn hình</span></button>
+  </nav>
+</header>
+
+<main id="tcWrap"><div id="tcStage"></div></main>
+
+<footer id="subbar">
+  <div id="subAvatar" class="av av-dan"></div>
+  <div id="subBody">
+    <div id="subName">Người dẫn</div>
+    <div id="subText">Chạm vào màn hình để bắt đầu nhé!</div>
+  </div>
+  <div id="pageNum"></div>
+</footer>
+
+<div id="splash">
+  <div class="splash-card">
+    <img src="hinh/bien_ten_game.png" alt="Chơi cùng Tròn Đỏ và Vuông Vàng">
+    <p class="small">3 màn chơi: hình tròn – hình vuông, màu đỏ – màu vàng, xây tháp phép thuật</p>
+    <button id="btnOpen" class="big-btn green">▶ Bắt đầu chơi</button>
+    <p class="small">Trẻ mẫu giáo 4–5 tuổi · Nên bật loa và chơi trên màn hình cảm ứng hoặc chuột</p>
+  </div>
+</div>
+
+<div id="cert" class="modal hidden"><div class="modal-card cert-card"><div id="certBody"></div></div></div>
+<div id="fxLayer"></div>
+
+<script src="js/data.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
